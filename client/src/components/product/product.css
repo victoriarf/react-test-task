@@ -1,0 +1,8 @@
+.card {
+  width: 25%;
+  min-width: 250px;
+  max-width: 430px;
+  text-align: center;
+  margin: 0.5rem;
+  cursor: pointer;
+}

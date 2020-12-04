@@ -1,0 +1,32 @@
+.productsListPage {
+  margin-top: 3rem;
+}
+
+.productsListControls {
+  margin: 0 1rem;
+}
+
+.productsListControls .form-group {
+  margin: 10px;
+}
+
+.productsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card video,
+.card img {
+  width: 100%;
+  max-height: 10rem;
+}
+
+.card img {
+  object-fit: contain;
+}
+
+.card video {
+  object-fit: cover;
+}
