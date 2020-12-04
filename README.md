@@ -4,11 +4,11 @@ Created by Viktoriia Vasyliv
 
 ## Available Scripts
 To install client and server dependencies run 
-in the /server directory and in the /client directory 
+in the project directory and in the /client directory 
 ### `npm i`
 
 
-In the /server directory run:
+In the root directory run:
 ### `npm run dev`
 It will run client app together with node server 
 
