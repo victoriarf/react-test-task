@@ -6,19 +6,18 @@ const app = express();
 
 app.use('/api/products', require('./routes/products.routes'));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || config.get('port') || 5000;
 
 async function start() {
   try {
     // TODO: setup mongoose
 
-    // console.log(1, config.get('port'));
     // console.log(2, config.get('mongoUri'))
-    // await mongoose.connect(config.get('mongoUri'), {
-    //     useNewUrlParser: true,
-    //     useUnifiedTopology: true,
-    //     useCreateIndex: true
-    // })
+    await mongoose.connect(config.get('mongoUri'), {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        useCreateIndex: true
+    });
     app.listen(PORT, () => console.log(`Server started at port ${PORT}...`));
   } catch (e) {
     console.log('Server Error', e.message);
