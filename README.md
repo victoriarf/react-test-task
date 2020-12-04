@@ -2,6 +2,9 @@
 
 Created by Viktoriia Vasyliv
 
+Visit https://victoria-react-test-task.herokuapp.com/
+
+
 ## Available Scripts
 To install client and server dependencies run 
 in the project directory and in the /client directory 
