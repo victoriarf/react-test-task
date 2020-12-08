@@ -21,3 +21,17 @@
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   width: 100%;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+  margin: 100px 0;
+}
+
+.carousel-control-prev-icon {
+  background: url(/src/assets/left-chevron.svg);
+  background-size: contain;
+}
+.carousel-control-next-icon {
+  background: url(/src/assets/right-chevron.svg);
+  background-size: contain;
+}

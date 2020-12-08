@@ -35,7 +35,7 @@ const ProductDetailsPage = () => {
   return (
     <>
       <div className="product-details-section">
-        <Carousel>
+        <Carousel indicators={false}>
           {product.media && product.media.length > 0 && product.media.map(media => {
             return (
               <Carousel.Item key={media.id}>
