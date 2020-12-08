@@ -27,10 +27,10 @@ const Product = props => {
   const Product = () => {
     return (
       <>
-        {!props.videoUrl && props.imageUrl &&
+        {props.imageUrl &&
         <Card.Img variant="top" src={props.imageUrl} alt=""/>}
 
-        {!!props.videoUrl && <video controls>
+        {!props.imageUrl && props.videoUrl && <video controls>
           <source src={props.videoUrl}/>
           <p>Your browser doesn't support HTML5 video. Here is
             a <a href={props.videoUrl}>link to the video</a> instead.</p>
