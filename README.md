@@ -32,6 +32,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## Possible improvements:
 - connect server with Mongo DB and create Schemas
+- setup AWS SSM to for controlling user session access
 - add debounce for search field - not to make new request on each change
 - add pagination to limit the size of returned products array
 
